@@ -72,7 +72,7 @@
 						</div>
 						<!--end::Left-->
 						<!--begin::Right-->
-						<div class="d-flex align-items-center">
+						<div class="d-flex align-items-center pe-7">
 							<!--begin::User-->
 							<div class="ms-1 ms-lg-6">
 								<!--begin::Toggle-->
