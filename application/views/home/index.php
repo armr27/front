@@ -1785,7 +1785,7 @@
 								</div>
 								<!--end::Row-->
 								<!--begin::Row-->
-								<div class="row g-0 g-xl-5 g-xxl-8">
+								<div class="row g-0 g-xl-5 g-xxl-5">
 									<!--begin::Table Widget 2-->
 									<div class="card card-stretch mb-5 mb-xxl-8">
 										<!--begin::Header-->
