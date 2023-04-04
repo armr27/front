@@ -33,8 +33,8 @@
 				<!--begin::Wrapper-->
 				<div class="d-flex flex-column-fluid flex-center py-10">
 					<!--begin::Signin Form-->
-					<form class="form w-100" id="kt_login_signin_form"
-						action="<?= base_url('login/proses_login') ?>" method="POST">
+					<form action="http://localhost/front/login/aksi_login" class="form w-100" 
+						 method="POST">
 						<!--begin::Title-->
 						<div class="pb-5 pb-lg-15">
 							<h3 class="fw-bolder text-dark display-6">Login Administrator</h3>
@@ -65,7 +65,7 @@
 						<!--begin::Action-->
 						<div class="pb-lg-0 pb-5">
 							<button type="submit" id="kt_login_signin_form_submit_button"
-								class="btn btn-info fw-bolder fs-6 px-12 py-4 my-3 me-3" href="<?= base_url('login/proses_login') ?>">Login</button>
+								class="btn btn-info fw-bolder fs-6 px-12 py-4 my-3 me-3" >Login</button>
 						</div>
 						<!--end::Action-->
 					</form>

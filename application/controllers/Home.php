@@ -20,7 +20,7 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
-        $data['prog_sampah'] = $this->db->query("SELECT (SUM(progress_kegiatan.jumlah) / SUM(target_kegiatan.jumlah)) * 100 AS percentage FROM target_kegiatan LEFT JOIN progress_kegiatan ON target_kegiatan.idTarget = progress_kegiatan.idTarget WHERE target_kegiatan.idKhidmat = 1;")->row();
+        $data['prog_sampah'] = $this->db->query("SELECT (SUM(progress_kegiatan.jumlah) / SUM(target_kegiatan.jumlah)) * 100 AS percentage FROM target_kegiatan LEFT JOIN progress_kegiatan ON target_kegiatan.idTarget = progress_kegiatan.idTarget WHERE target_kegiatan.idKhidmat = 1")->row();
         $data['prog_administrasi'] = $this->db->query("SELECT (SUM(progress_kegiatan.jumlah) / SUM(target_kegiatan.jumlah)) * 100 AS percentage FROM target_kegiatan LEFT JOIN progress_kegiatan ON target_kegiatan.idTarget = progress_kegiatan.idTarget WHERE target_kegiatan.idKhidmat = 2")->row();
         $data['prog_pembangunan'] = $this->db->query("SELECT (SUM(progress_kegiatan.jumlah) / SUM(target_kegiatan.jumlah)) * 100 AS percentage FROM target_kegiatan LEFT JOIN progress_kegiatan ON target_kegiatan.idTarget = progress_kegiatan.idTarget WHERE target_kegiatan.idKhidmat = 3")->row();
         $data['prog_drainase'] = $this->db->query("SELECT (SUM(progress_kegiatan.jumlah) / SUM(target_kegiatan.jumlah)) * 100 AS percentage FROM target_kegiatan LEFT JOIN progress_kegiatan ON target_kegiatan.idTarget = progress_kegiatan.idTarget WHERE target_kegiatan.idKhidmat = 4")->row();

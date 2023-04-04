@@ -109,7 +109,7 @@
 									</div>
 									<!--begin::Row-->
 									<div class="row row-cols-1 g-0">
-										<a href="aplication/login.html"
+										<a href="<?= base_url('login/logout') ?>"
 											class="col text-center py-10 btn btn-active-color-primary rounded-0">
 											<!--begin::Svg Icon | path: icons/duotune/arrows/arr077.svg-->
 											<span class="svg-icon svg-icon-3x me-n1">
