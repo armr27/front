@@ -32,6 +32,13 @@
 		#kt_wrapper {
 			margin-right: 430px;
 		}
+
+		.bg-tanjak {
+			background-image: url("<?= base_url('assets/') ?>assets/media/logos/8.png");	
+			margin-bottom: 10px;
+			margin-top:0px;
+		}
+				
 	</style>
 	<!--end::Global Stylesheets Bundle-->
 </head>
@@ -50,7 +57,7 @@
 				<div id="kt_header" class="header" data-kt-sticky="true" data-kt-sticky-name="header"
 					data-kt-sticky-offset="{default: '200px', lg: '300px'}">
 					<!--begin::Container-->
-					<div class="container-xxl d-flex align-items-stretch justify-content-between">
+					<div class="container-xxl d-flex align-items-stretch justify-content-between bg-tanjak p-4">
 						<!--begin::Left-->
 						<div class="d-flex align-items-center">
 							<!--begin::Mega Menu Toggler-->
@@ -76,7 +83,7 @@
 							<!--begin::User-->
 							<div class="ms-1 ms-lg-6">
 								<!--begin::Toggle-->
-								<div class="btn btn-icon btn-sm btn-active-bg-accent" data-kt-menu-trigger="click"
+								<div class="btn btn-icon btn-light btn-sm btn-active-bg-accent" data-kt-menu-trigger="click"
 									data-kt-menu-placement="bottom-end" id="kt_header_user_menu_toggle">
 									<!--begin::Svg Icon | path: icons/duotune/communication/com013.svg-->
 									<span class="svg-icon svg-icon-1 svg-icon-dark">

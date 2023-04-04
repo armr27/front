@@ -112,16 +112,18 @@
                                                         </h3>
                                                     </div>
                                                 </a>
-                                                <a href="{{ url('/Users') }}"
-                                                    class="card bg-light-danger hoverable min-h-125px shadow-none mb-5">
-                                                    <div class="card-body d-flex flex-column flex-center">
-                                                        <img width="30"
-                                                            src="<?= base_url('assets/')?>assets/gambar/opd.png"
-                                                            alt="">
-
-                                                        <h3 class="fs-3 mb-2 text-dark fw-bolder">Akun</h3>
+                                                <div class="col-3">
+                                                        <a href="{{ url('/Users') }}"
+                                                            class="card bg-light-danger hoverable min-h-125px shadow-none mb-5">
+                                                            <div class="card-body d-flex flex-column flex-center">
+                                                                <img width="30"
+                                                                    src="<?= base_url('assets/')?>assets/gambar/opd.png"
+                                                                    alt="">
+        
+                                                                <h3 class="fs-3 mb-2 text-dark fw-bolder">Akun</h3>
+                                                            </div>
+                                                        </a>
                                                     </div>
-                                                </a>
                                             </div>
                                         </div>
 

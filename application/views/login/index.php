@@ -1,4 +1,16 @@
 <!--begin::Body-->
+<style>
+	.bg-white{
+		background-image: url("<?= base_url('assets/') ?>assets/media/logos/7.png");
+		opacity: 100%;
+	}
+
+	.card{
+		background-color: Aliceblue;
+		padding : 0px 25px 25px 25px;
+	}
+</style>
+
 
 <body id="kt_body" class="bg-white">
 	<!--begin::Main-->
@@ -11,13 +23,13 @@
 				<div class="d-flex flex-row-fluid flex-center flex-column-auto flex-column text-center mb-5">
 					<!--begin::Aside Logo-->
 					<a href="../dist/index.html" class="m-6">
-						<img alt="Logo" src="<?= base_url('assets/') ?>assets/media/logos/logo.png" class="h-50px h-lg-100px" />
+						<img alt="Logo" src="<?= base_url('assets/') ?>assets/media/logos/3.png" class="h-100px h-lg-300px" />
 					</a>
 					<!--end::Aside Logo-->
 					<!--begin::Aside Subtitle-->
-					<h3 class="fw-bolder fs-2x text-white lh-lg">Dumai Berkhidmat
+					<!-- <h3 class="fw-bolder fs-2x text-white lh-lg">Dumai Berkhidmat
 						<br />Menuju Kota Idaman
-					</h3>
+					</h3> -->
 					<!--end::Aside Subtitle-->
 				</div>
 				<!--end::Aside Top-->
@@ -28,12 +40,12 @@
 			</div>
 			<!--begin::Aside-->
 			<!--begin::Content-->
-			<div
-				class="login-content flex-lg-row-fluid d-flex flex-column justify-content-center position-relative overflow-hidden py-10 py-lg-20 px-10 p-lg-7 mx-auto mw-450px w-100">
+			<div class="login-content flex-lg-row-fluid d-flex flex-column justify-content-center position-relative overflow-hidden py-10 py-lg-20 px-10 p-lg-7 mx-auto mw-450px w-100">
 				<!--begin::Wrapper-->
-				<div class="d-flex flex-column-fluid flex-center py-10">
+				<div class="card p-5">
+				<div class="d-flex flex-column-fluid flex-center py-10 ">
 					<!--begin::Signin Form-->
-					<form action="http://localhost/front/login/aksi_login" class="form w-100" 
+					<form action="http://localhost/front/login/aksi_login" class="form w-100" class="bg-white" 
 						 method="POST">
 						<!--begin::Title-->
 						<div class="pb-5 pb-lg-15">
@@ -70,6 +82,7 @@
 						<!--end::Action-->
 					</form>
 					<!--end::Signin Form-->
+				</div>
 				</div>
 				<!--end::Wrapper-->
 			</div>
